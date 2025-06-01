@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar';
 import { Outlet } from 'react-router-dom';
 const MainLay = () => {
  return (
-  <div className='bg-[#011813] h-screen'>
+  <div className='bg-[#ffffff] h-screen'>
    <Navbar />
-  <div className='pt-20'>
+  <div className='pt-20 p-9'>
     <Outlet />
   </div>
   </div>
