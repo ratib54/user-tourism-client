@@ -14,9 +14,10 @@ const Navbar = () => {
  const navItems = [
   { name: 'Home', path: '/' },
   { name: 'All Tourist Spots', path: '/alltouristspot' },
+  {name : 'Add Tourist Spots', path:'/addtouristspot'} ,
   { name: 'My List', path: '/mylist' },
   { name: 'Login', path: '/login' },
-  { name: 'Register', path: '/register' },
+  { name: 'Register', path: '/register' }
  ];
 
  const navLinkStyle = ({ isActive }) =>
@@ -26,7 +27,7 @@ const Navbar = () => {
   }`;
 
  return (
-  <nav className="fixed top-2 max-w-[1500px] mx-auto ml-[5%]  rounded-3xl w-full z-50 bg-black shadow-lg">
+  <nav className="fixed top-0 max-w-[1500px] mx-auto ml-[5%]  rounded-3xl w-full z-50 bg-black shadow-lg">
    <div className="max-w-[1500px] mx-auto px-4 py-1  flex justify-between items-center">
     {/* Logo & Brand */}
     <NavLink to="/" className="flex items-center space-x-2">
